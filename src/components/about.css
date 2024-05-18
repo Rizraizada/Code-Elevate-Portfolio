@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+
+}
+.Wrapper{   
+    /* padding-top: 10px; */
+    /* background-color: aquamarine; */
+    margin-left:9% ;
+    margin-right:12% ;
+    height: 601px;
+
+}
+.topSection{
+    
+    /* background-color: red; */
+    height: 200px;
+    padding-bottom: 15px;
+    /* padding-top:20px ; */
+    /* border: 1px solid black; */
+}
+.bottom-portion{
+
+    padding-top:8px ;
+    padding-left: 12%;
+    /* padding-right: 200px; */
+    /* border: 1px solid black; */
+    /* background-color: red; */
+}
+
+.bottomSection{
+    height: 248px;
+    display: flex;
+    justify-content:space-between;
+    justify-content: left;
+}
+.left{
+    padding-left: 6%;
+}
+.left img{
+
+    height: 270px;
+    width: auto;
+    border-radius: 3px;
+}
+.right{
+    padding-top: -5px;
+    padding-left: 50px;
+}
+.first-portion{
+    display: flex;
+    justify-content:space-evenly;
+    padding-right: 40px;
+}
+.second-portion{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-top: -5px;
+    margin-left: -10px;
+    /* background-color: red; */
+}
+.top-portion{
+    padding-bottom:10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.im img{
+
+    height: 50px;
+    width: auto;
+}
+.about-us{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.about-top{
+    padding-top: 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    line-height: 31px;
+    font-weight: 400;
+}
+.about-bottom{
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-bottom , .about-bottom2{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+}
+.about-us-alt{
+   display: none;
+}
+
+@media (max-width: 450px) {
+    
+    body{
+        margin: 0px;
+       
+    }
+    .Wrapper{   
+        padding-top: 0px;
+        /* background-color: aquamarine; */
+        margin-left:0rem ;
+        margin-right:0rem ;
+        height: 680px;
+
+    }
+    .topSection{
+    
+        /* background-color: red; */
+        height: 80px;
+
+        padding-top:20px ;
+        /* border: 1px solid black; */
+        margin-left:0rem ;
+        margin-right:0rem ;
+    }
+    .top-portion{
+        padding-bottom:10px;
+        font-size: 8px;
+        text-align: center;
+    }
+    .im img{
+
+        height: 20px;
+        width: auto;
+    }
+    .bottom-portion{
+    
+        padding-top:8px ;
+        padding-left: 0px;
+        padding-right: 0px;
+        
+       
+    }
+    .first-portion{
+        display: flex;
+        justify-content:space-evenly;
+        padding-right: 7px;
+    }
+    .second-portion{
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        padding-top: -5px;
+        margin-left: -0px;
+        /* background-color: red; */
+    }
+
+    .bottomSection{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0px;
+    }
+    .left{
+        padding-left: 0rem;
+        margin-right: 0px;
+    }
+    .left img{
+
+        height: 200px;
+        width: auto;
+        border-radius: 3px;
+        margin-right: 0px;
+    }
+    .right{
+    
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    
+ 
+    .about-us{
+        display: none;
+    }
+    .about-us-alt{
+        display:grid;
+        align-items: center;
+        padding-bottom:30px ;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .about-top{
+        /* padding-top: 20px; */
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 200;
+        text-align: center;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .about-bottom{
+     
+        padding-top: 0px;
+
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .about-bottom2{
+    
+        font-size: 12px;
+       
+    }
+    .about-bottom , .about-bottom2{
+        font-family: "Poppins", sans-serif;
+        /* display: flex; */
+        justify-content: space-around;
+        padding-right: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+  }
+  

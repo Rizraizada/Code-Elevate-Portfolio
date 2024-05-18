@@ -1,0 +1,169 @@
+ 
+
+/* Hiring container */
+.container{
+    max-width: 1321px;
+    min-height: 504;
+    margin: 2rem auto;
+    padding: 3% 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.hire_section_left{
+    flex: 1;
+}
+.hire_section_right{
+    flex: 1;
+}
+
+/* Left Section Starts here */
+.left_header{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap:1rem;
+}
+
+
+.borderline{
+    width: 60px;
+    height: 3px;
+    background-color: #6358E6;
+}
+
+.header_style{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.left_header span{
+    font-weight: 600;
+    font-size: 16px;
+    line-height:24px;
+    color: #6358E6;
+}
+
+.btn{
+    padding: 10px 35px;
+    font-weight: 600;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    background-color: #F3C623;
+}
+
+.btn_area{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.btn_area > a{
+    color:black;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.btn a{
+    color: black;
+}
+
+.left_main p{
+    margin:20px 0px;
+}
+
+.l_main_head1{
+    color:#F3C623;
+}
+
+/* Right Section Starts here */
+.section6_img{
+    max-width:500px;
+    max-height: 500px;
+}
+
+.img_hidden{
+    display: none;
+}
+
+/* Responsiveness for 4 screens */
+
+@media screen and (max-width: 1280px){
+    .section6_img{
+        max-width:480px;
+        max-height: 480px;
+    }
+
+    .header_style{
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .section6_img{
+        max-width:400px;
+        max-height: 400px;
+    }
+
+    .header_style{
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 52px;
+    }
+    .left_main p{
+        font-size: 14px;
+    }
+
+    .btn_area{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .borderline{
+        display: none;
+    }
+
+    .left_header span{
+        display: inline-block;
+        margin:15px auto;
+    }
+    .header_style, .left_main p{
+        text-align: center;
+    }
+
+    .img_hidden{
+        display: block;
+    }
+
+    .hidden_img{
+        max-width:420px;
+        max-height: 420px;
+        margin:auto;
+    } 
+
+    .hire_section{
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .hire_section_right{
+        display: none;
+    }
+
+    .btn_area{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
