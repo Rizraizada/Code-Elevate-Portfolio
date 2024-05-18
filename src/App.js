@@ -5,6 +5,7 @@ import Service from './components/service';
 
 import './App.css';
 import JoinUs from './components/joinUs';
+import Consultant from './components/consultant';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <AboutUs />
         <Service />
         <JoinUs />
+        <Consultant />
+
 
 
      </div>
